@@ -1,0 +1,12 @@
+- title: Home
+  navurl: /
+
+- title: Blog
+  navurl: /blog
+
+- title: Login
+  navurl: /login
+
+- title: Contact
+  navurl: /contact
+

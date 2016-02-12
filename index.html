@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blogs!!
+---
+{% for post in site.posts %}
+    <li>
+        <article id="BlogPosts">
+            <div class="indvposthead">
+                <span id="title"><a href="{{post.url}}">{{post.title}}</a></span>
+                <span id="date">{{post.Date | date_to_long_string}}</span>
+            </div>
+            <div class="indvpostcontent">
+                {{post.content | strip_html | truncatewords : 75}}
+                <br>
+                <br>
+                <span id="more"><a href="{{post.url}}">See More</a></span>
+                <br>
+            </div>
+            <br>
+        </article>
+    </li>
+{% endfor %}

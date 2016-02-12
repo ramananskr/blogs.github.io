@@ -1,0 +1,9 @@
+<header class="header">
+    <nav class="topnav">
+        <ul>
+            {% for nav in site.data.nav %}
+                <li><a href="{{nav.navurl}}">{{nav.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,6 @@
+environment: "development"
+markdown: kramdown
+exclude: ["initializr"]
+title: Paramount Dataware
+imagepath: assets/images/
+baseurl: /
