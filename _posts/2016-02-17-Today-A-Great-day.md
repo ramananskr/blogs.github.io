@@ -1,7 +1,7 @@
 ---
 layout: blogs
 title: Today is a great day
-Date: 2016-01-12
+Date: 2016-02-17
 meta: Today is a great day. Enjoy every moment..
 image: hurray.jpg
 permalink: Today-A-Great-day/
